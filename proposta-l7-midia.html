@@ -1,0 +1,650 @@
+<!-- Proposta Comercial L7 Midia - Metodo L7 | 14 slides 1920x1080 -->
+<meta charset="utf-8">
+<title>Proposta Comercial L7 Mídia — Método L7</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  :root{
+    --black:#000000;
+    --paper:#E8EBEC;
+    --cyan:#00DFDC;
+    --cyan-deep:#15D1EA;
+    --graphite:#3D4649;
+    --mute:#7C8689;
+    --line-dark:rgba(255,255,255,.16);
+    --line-light:rgba(0,0,0,.14);
+  }
+
+  body{ background:#55605F; font-family:'Inter',Arial,sans-serif; }
+
+  .page{
+    position:relative;
+    width:1920px; height:1080px;
+    overflow:hidden;
+    padding:110px 130px;
+    display:flex; flex-direction:column;
+    margin:0 auto 28px;
+  }
+  .dark{ background:var(--black); color:#fff; }
+  .light{ background:var(--paper); color:var(--graphite); }
+
+  /* ---------- type ---------- */
+  .display{
+    font-family:'Bodoni Moda',Georgia,serif;
+    font-weight:600;
+    line-height:.86;
+    letter-spacing:-.015em;
+    text-transform:uppercase;
+  }
+  .d-xxl{ font-size:172px; }
+  .d-xl { font-size:132px; }
+  .d-lg { font-size:96px; }
+  .d-md { font-size:70px; }
+  .serif-num{ font-family:'Bodoni Moda',Georgia,serif; font-weight:500; line-height:.9; }
+
+  .kicker{
+    font-size:17px; font-weight:600; letter-spacing:.34em;
+    text-transform:uppercase; color:var(--cyan);
+  }
+  .body-lg{ font-size:30px; line-height:1.5; font-weight:300; max-width:22ch; }
+  .body-md{ font-size:25px; line-height:1.58; font-weight:300; }
+  .body-sm{ font-size:21px; line-height:1.6; font-weight:300; }
+  .tiny { font-size:16px; letter-spacing:.18em; text-transform:uppercase; font-weight:600; }
+  .strong{ font-weight:600; }
+  .cy{ color:var(--cyan); }
+
+  .rule{ height:2px; background:var(--cyan); border:0; }
+  .rule-w{ width:150px; }
+
+  /* ---------- the Z mark (brand device) ---------- */
+  .zmark{ display:block; }
+  .zwater{
+    position:absolute; opacity:.05; pointer-events:none;
+  }
+
+  /* ---------- helpers ---------- */
+  .row{ display:flex; }
+  .between{ justify-content:space-between; }
+  .center-y{ align-items:center; }
+  .end{ align-items:flex-end; }
+  .grow{ flex:1; }
+  .col{ display:flex; flex-direction:column; }
+  .gap-s{ gap:22px; } .gap-m{ gap:40px; } .gap-l{ gap:64px; }
+  .mt-a{ margin-top:auto; }
+
+  .bleed-right{
+    position:absolute; top:0; right:0; height:1080px; width:660px;
+  }
+  .bleed-left{
+    position:absolute; top:0; left:0; height:1080px; width:620px;
+  }
+
+  .ph{
+    display:flex; align-items:center; justify-content:center;
+    text-align:center; font-size:18px; letter-spacing:.16em;
+    text-transform:uppercase; font-weight:600;
+    color:var(--cyan);
+    border:2px dashed rgba(0,223,220,.55);
+    background:rgba(0,223,220,.05);
+    line-height:1.7;
+  }
+
+  .foot{
+    position:absolute; left:130px; right:130px; bottom:56px;
+    display:flex; justify-content:space-between; align-items:center;
+    font-size:15px; letter-spacing:.2em; text-transform:uppercase;
+    font-weight:600; color:var(--mute);
+  }
+  .dark .foot{ color:rgba(255,255,255,.38); }
+</style>
+
+<!-- ===================== 01 CAPA ===================== -->
+<section class="page dark" data-document-role="page" data-label="01 Capa"
+  data-speaker-notes="Abertura. Nome da clinica no canto. Nao leia o slide: diga o nome dela e va direto para o slide 2.">
+  <svg class="zwater" style="right:-140px; top:120px; width:900px;" viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+    <path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/>
+    <path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/>
+    <path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/>
+  </svg>
+
+  <div class="row between center-y">
+    <span class="kicker">L7 Mídia</span>
+    <span class="tiny" style="color:rgba(255,255,255,.4)">Agência de Marketing</span>
+  </div>
+
+  <div class="grow col" style="max-width:1240px; justify-content:flex-end">
+    <h1 class="display d-xxl">Proposta<br>Comercial</h1>
+    <hr class="rule rule-w" style="margin:52px 0 40px">
+    <p class="body-lg" style="max-width:32ch; color:rgba(255,255,255,.82)">
+      Método L7 — as sete dimensões que fazem uma clínica vender todos os dias.
+    </p>
+  </div>
+
+  <div class="row between end" style="padding-top:70px">
+    <div class="col gap-s">
+      <span class="tiny cy">Preparada para</span>
+      <span class="body-md" style="color:#fff">[ Nome da clínica ]</span>
+    </div>
+    <span class="tiny" style="color:rgba(255,255,255,.4)">[ Mês / Ano ]</span>
+  </div>
+</section>
+
+<!-- ===================== 02 PRAZER ===================== -->
+<section class="page light" data-document-role="page" data-label="02 Prazer Patrick"
+  data-speaker-notes="Slide de autoridade. Fale 40 segundos sobre voce e vire rapido para a dor. Ninguem compra sua biografia.">
+  <div class="bleed-right ph" style="border-left:2px solid var(--cyan)">
+    SUBSTITUIR<br>foto sua<br>vertical · fundo neutro
+  </div>
+
+  <div style="width:1030px" class="col grow">
+    <span class="kicker">Quem conduz o projeto</span>
+    <h2 class="display d-xl" style="margin:34px 0 46px; color:var(--black)">Prazer,<br>Patrick</h2>
+    <hr class="rule rule-w" style="margin-bottom:46px">
+
+    <p class="body-md" style="max-width:26ch; margin-bottom:34px">
+      Sou gestor de tráfego há mais de seis anos e conduzo a
+      <span class="strong">L7 Mídia</span>, agência que trabalha exclusivamente com
+      <span class="strong">clínicas de estética e harmonização</span>.
+    </p>
+    <p class="body-md" style="max-width:27ch">
+      Meu trabalho não é entregar anúncio bonito. É fazer sua agenda encher
+      de forma previsível — todo mês, com número na mão.
+    </p>
+
+    <p class="body-sm mt-a" style="color:var(--mute); max-width:30ch">
+      Nas próximas páginas você vê exatamente como isso acontece dentro da sua clínica.
+    </p>
+  </div>
+  <div class="foot" style="right:700px"><span>L7 Mídia</span><span>02</span></div>
+</section>
+
+<!-- ===================== 03 A VERDADE ===================== -->
+<section class="page dark" data-document-role="page" data-label="03 A verdade"
+  data-speaker-notes="Aqui voce cala e deixa ela ler. A dor precisa doer antes do preco aparecer.">
+  <span class="kicker">O diagnóstico</span>
+
+  <div class="mt-a row gap-l end">
+    <h2 class="display d-xl" style="max-width:13ch">O problema nunca foi só fazer anúncio</h2>
+
+    <div class="col gap-m" style="width:600px; padding-bottom:22px">
+      <p class="body-md" style="color:rgba(255,255,255,.82)">
+        Você já rodou tráfego. Já postou no Instagram. Já contratou freelancer.
+        E a agenda continua oscilando: um mês bomba, no outro seca.
+      </p>
+      <hr style="border:0; border-top:1px solid var(--line-dark)">
+      <p class="body-md" style="color:rgba(255,255,255,.82)">
+        Anúncio traz gente. Mas agenda cheia depende de sete engrenagens girando juntas —
+        e basta uma travar para o investimento inteiro vazar pelo ralo.
+      </p>
+    </div>
+  </div>
+
+  <div class="mt-a" style="padding-top:70px">
+    <hr style="border:0; border-top:1px solid var(--line-dark); margin-bottom:34px">
+    <div class="row between">
+      <span class="body-sm" style="color:rgba(255,255,255,.6)">Lead chega e ninguém responde em cinco minutos.</span>
+      <span class="body-sm" style="color:rgba(255,255,255,.6)">Responde, mas não conduz até o agendamento.</span>
+      <span class="body-sm" style="color:rgba(255,255,255,.6)">Agenda, faz o procedimento e nunca mais volta.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 04 GARGALOS ===================== -->
+<section class="page light" data-document-role="page" data-label="04 Onde o dinheiro vaza"
+  data-speaker-notes="Pergunte qual dos tres ela reconhece na clinica dela. A resposta abre o resto da conversa.">
+  <div class="row between end">
+    <h2 class="display d-lg" style="color:var(--black); max-width:16ch">Onde o seu dinheiro está vazando</h2>
+    <span class="kicker" style="padding-bottom:14px">Três gargalos</span>
+  </div>
+  <hr class="rule" style="margin:56px 0 70px">
+
+  <div class="row gap-l grow">
+    <div class="col" style="flex:1">
+      <svg class="zmark" width="34" viewBox="0 0 300 340" style="margin-bottom:30px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <h3 class="display d-md" style="color:var(--black); margin-bottom:26px">Atração<br>sem rumo</h3>
+      <p class="body-sm">Anúncio genérico atrai curioso, não paciente. Você paga caro por um lead que nunca ia fechar procedimento nenhum.</p>
+    </div>
+    <div style="width:1px; background:var(--line-light)"></div>
+    <div class="col" style="flex:1">
+      <svg class="zmark" width="34" viewBox="0 0 300 340" style="margin-bottom:30px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <h3 class="display d-md" style="color:var(--black); margin-bottom:26px">Atendimento<br>amador</h3>
+      <p class="body-sm">O lead mais quente esfria em minutos. Sem processo de conversa, você perde a venda que já tinha pago para conseguir.</p>
+    </div>
+    <div style="width:1px; background:var(--line-light)"></div>
+    <div class="col" style="flex:1">
+      <svg class="zmark" width="34" viewBox="0 0 300 340" style="margin-bottom:30px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <h3 class="display d-md" style="color:var(--black); margin-bottom:26px">Zero<br>retenção</h3>
+      <p class="body-sm">Você gasta para conquistar e não faz nada para trazer de volta. Cada paciente vale um procedimento quando poderia valer cinco.</p>
+    </div>
+  </div>
+
+  <p class="body-md mt-a" style="padding-top:56px; color:var(--black)">
+    O resultado: você trabalha, investe, se estressa — e o faturamento não sai do lugar.
+  </p>
+  <div class="foot"><span>L7 Mídia</span><span>04</span></div>
+</section>
+
+<!-- ===================== 05 METODO L7 ===================== -->
+<section class="page dark" data-document-role="page" data-label="05 O Método L7"
+  data-speaker-notes="Nao leia as sete. Diga: agencia comum cuida de uma. Nos cuidamos das sete. E aponte as duas que ela mais precisa.">
+  <div class="row between end">
+    <div>
+      <span class="kicker">A estrutura completa</span>
+      <h2 class="display d-lg" style="margin-top:28px">O Método L7</h2>
+    </div>
+    <p class="body-sm" style="width:520px; color:rgba(255,255,255,.7); padding-bottom:12px">
+      Agências vendem tráfego — uma engrenagem só. Nós instalamos as sete forças
+      que fazem uma clínica vender todos os dias.
+    </p>
+  </div>
+  <hr class="rule" style="margin:52px 0 60px">
+
+  <div class="grow" style="display:grid; grid-template-columns:1fr 1fr; gap:44px 110px; align-content:start">
+    <div class="row gap-s">
+      <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:8px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <div><span class="display" style="font-size:40px">Oferta</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); margin-top:10px">Seus procedimentos reposicionados como propostas que a paciente não consegue comparar por preço.</p></div>
+    </div>
+    <div class="row gap-s">
+      <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:8px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <div><span class="display" style="font-size:40px">Marketing</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); margin-top:10px">Sua clínica ocupando o lugar de referência na região, não o de mais uma opção.</p></div>
+    </div>
+    <div class="row gap-s">
+      <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:8px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <div><span class="display" style="font-size:40px">Tráfego</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); margin-top:10px">Pacientes qualificados chegando todos os dias, com custo por oportunidade medido.</p></div>
+    </div>
+    <div class="row gap-s">
+      <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:8px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <div><span class="display" style="font-size:40px">Captação</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); margin-top:10px">Estrutura que transforma atenção em agendamento real, não em curtida.</p></div>
+    </div>
+    <div class="row gap-s">
+      <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:8px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <div><span class="display" style="font-size:40px">Atendimento</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); margin-top:10px">Resposta rápida e condução do lead até a cadeira, com roteiro definido.</p></div>
+    </div>
+    <div class="row gap-s">
+      <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:8px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <div><span class="display" style="font-size:40px">Vendas</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); margin-top:10px">Processo comercial que eleva a taxa de fechamento sobre o mesmo volume de leads.</p></div>
+    </div>
+    <div class="row gap-s">
+      <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:8px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+      <div><span class="display" style="font-size:40px">Retenção</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); margin-top:10px">Recompra e indicação trabalhadas para multiplicar o valor de cada paciente.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 06 SISTEMA ===================== -->
+<section class="page light" data-document-role="page" data-label="06 O que você recebe"
+  data-speaker-notes="Aqui voce justifica o ticket. Diga em voz alta: nao e trafego, sao quatro frentes.">
+  <span class="kicker">O que entra no projeto</span>
+  <h2 class="display d-lg" style="color:var(--black); margin-top:28px; max-width:18ch">
+    Você não contrata um serviço. Instala um sistema.
+  </h2>
+  <hr class="rule" style="margin:54px 0 62px">
+
+  <div class="grow" style="display:grid; grid-template-columns:1fr 1fr; gap:52px 90px">
+    <div style="border-top:2px solid var(--black); padding-top:26px">
+      <h3 class="display d-md" style="color:var(--black); margin-bottom:20px">Tráfego<br>Meta Ads</h3>
+      <p class="body-sm">Campanhas de descoberta, conversão e remarketing otimizadas diariamente para atrair pacientes de harmonização na sua região.</p>
+    </div>
+    <div style="border-top:2px solid var(--black); padding-top:26px">
+      <h3 class="display d-md" style="color:var(--black); margin-bottom:20px">Criativos<br>e artes</h3>
+      <p class="body-sm">Vídeos e estáticos produzidos para parar o dedo e comunicar autoridade. Nada de arte amadora representando sua clínica.</p>
+    </div>
+    <div style="border-top:2px solid var(--black); padding-top:26px">
+      <h3 class="display d-md" style="color:var(--black); margin-bottom:20px">Página<br>de conversão</h3>
+      <p class="body-sm">Estrutura construída para transformar clique em agendamento, com rastreamento completo do que cada real gerou.</p>
+    </div>
+    <div style="border-top:2px solid var(--black); padding-top:26px">
+      <h3 class="display d-md" style="color:var(--black); margin-bottom:20px">CRM e<br>automação</h3>
+      <p class="body-sm">Sistema que responde rápido, organiza cada lead por etapa e garante que nenhuma paciente escape por esquecimento.</p>
+    </div>
+  </div>
+
+  <p class="body-md mt-a" style="padding-top:50px; color:var(--black); max-width:60ch">
+    Quatro frentes operando juntas, medidas toda semana, com um único objetivo: sua agenda cheia.
+  </p>
+  <div class="foot"><span>L7 Mídia</span><span>06</span></div>
+</section>
+
+<!-- ===================== 07 CONQUISTAS ===================== -->
+<section class="page dark" data-document-role="page" data-label="07 Conquistas"
+  data-speaker-notes="Passe rapido. Numero agregado abre credibilidade mas quem fecha e o case do slide seguinte.">
+  <span class="kicker">L7 Mídia em números</span>
+  <h2 class="display d-lg" style="margin-top:28px; max-width:15ch">Cinco anos construindo operação que vende</h2>
+
+  <div class="grow row mt-a" style="align-items:flex-end; gap:0; padding-top:80px">
+    <div style="flex:1; border-top:1px solid var(--line-dark); padding-top:32px">
+      <span class="serif-num cy" style="font-size:118px">130</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.62); margin-top:14px">empresas atendidas</p>
+    </div>
+    <div style="flex:1; border-top:1px solid var(--line-dark); padding-top:32px">
+      <span class="serif-num cy" style="font-size:118px">8 mi</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.62); margin-top:14px">gerados para clientes</p>
+    </div>
+    <div style="flex:1; border-top:1px solid var(--line-dark); padding-top:32px">
+      <span class="serif-num cy" style="font-size:118px">100 mil</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.62); margin-top:14px">leads captados</p>
+    </div>
+    <div style="flex:1; border-top:1px solid var(--line-dark); padding-top:32px">
+      <span class="serif-num cy" style="font-size:118px">5</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.62); margin-top:14px">anos de mercado</p>
+    </div>
+  </div>
+
+  <p class="body-md mt-a" style="padding-top:70px; color:#fff">
+    Especialistas em clínicas de estética e harmonização — é o único mercado em que atuamos.
+  </p>
+</section>
+
+<!-- ===================== 08 CASE 01 ===================== -->
+<section class="page light" data-document-role="page" data-label="08 Case 01"
+  data-speaker-notes="O slide mais importante da proposta. Escolha o case mais parecido com a clinica dela e conte a historia em 60s.">
+  <div class="bleed-right ph" style="width:600px; border-left:2px solid var(--cyan)">
+    SUBSTITUIR<br>foto da cliente
+  </div>
+
+  <div style="width:1080px" class="col grow">
+    <span style="display:inline-block; align-self:flex-start; border:1.5px solid var(--black); border-radius:60px; padding:12px 30px; font-size:16px; letter-spacing:.2em; text-transform:uppercase; font-weight:600; color:var(--black)">
+      Harmonização facial
+    </span>
+
+    <h2 class="display" style="font-size:54px; color:var(--black); margin:30px 0 24px; max-width:24ch">
+      [ Nome da clínica ] — [ cidade ]
+    </h2>
+    <p class="body-sm" style="max-width:46ch; margin-bottom:40px">
+      [ Em duas linhas: qual era o problema e o que a L7 fez. Ex.: agenda dependia
+      só de indicação; reestruturamos a oferta de harmonização e subimos o volume
+      de agendamentos em X semanas. ]
+    </p>
+
+    <div class="row gap-m" style="margin-bottom:36px">
+      <div style="flex:1; border-top:2px solid var(--black); padding-top:20px">
+        <span class="serif-num" style="font-size:46px; white-space:nowrap; color:var(--black)">R$ 0.000</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">investido no mês</p>
+      </div>
+      <div style="flex:1; border-top:2px solid var(--black); padding-top:20px">
+        <span class="serif-num" style="font-size:46px; white-space:nowrap; color:var(--black)">000</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">leads gerados</p>
+      </div>
+      <div style="flex:1; border-top:2px solid var(--black); padding-top:20px">
+        <span class="serif-num" style="font-size:46px; white-space:nowrap; color:var(--black)">00</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">agendamentos</p>
+      </div>
+      <div style="flex:1; border-top:2px solid var(--cyan); padding-top:20px">
+        <span class="serif-num cy" style="font-size:46px; white-space:nowrap">R$ 00.000</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">faturamento atribuído</p>
+      </div>
+    </div>
+
+    <div class="row gap-m mt-a center-y">
+      <div class="ph" style="width:330px; height:190px">SUBSTITUIR<br>print do WhatsApp</div>
+      <p class="body-sm" style="max-width:30ch; color:var(--black)">
+        “[ Frase curta da médica comemorando resultado. Peça autorização para usar o nome e o @. ]”
+      </p>
+    </div>
+
+    <p class="tiny" style="color:var(--mute); margin-top:30px">@perfil.da.clinica</p>
+  </div>
+</section>
+
+<!-- ===================== 09 CASE 02 ===================== -->
+<section class="page light" data-document-role="page" data-label="09 Case 02"
+  data-speaker-notes="Segundo case. Se tiver so um forte, apague este slide em vez de encher com case fraco.">
+  <div class="bleed-left ph" style="width:600px; border-right:2px solid var(--cyan)">
+    SUBSTITUIR<br>foto da cliente
+  </div>
+
+  <div style="width:1080px; margin-left:auto" class="col grow">
+    <span style="display:inline-block; align-self:flex-start; border:1.5px solid var(--black); border-radius:60px; padding:12px 30px; font-size:16px; letter-spacing:.2em; text-transform:uppercase; font-weight:600; color:var(--black)">
+      Estética avançada
+    </span>
+
+    <h2 class="display" style="font-size:54px; color:var(--black); margin:30px 0 24px; max-width:24ch">
+      [ Nome da clínica ] — [ cidade ]
+    </h2>
+    <p class="body-sm" style="max-width:46ch; margin-bottom:40px">
+      [ Em duas linhas: a estratégia aplicada e o que mudou na operação. Fale de
+      procedimento e de agenda, não de métrica de rede social. ]
+    </p>
+
+    <div class="row gap-m" style="margin-bottom:36px">
+      <div style="flex:1; border-top:2px solid var(--black); padding-top:20px">
+        <span class="serif-num" style="font-size:46px; white-space:nowrap; color:var(--black)">R$ 0.000</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">investido no mês</p>
+      </div>
+      <div style="flex:1; border-top:2px solid var(--black); padding-top:20px">
+        <span class="serif-num" style="font-size:46px; white-space:nowrap; color:var(--black)">000</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">leads gerados</p>
+      </div>
+      <div style="flex:1; border-top:2px solid var(--black); padding-top:20px">
+        <span class="serif-num" style="font-size:46px; white-space:nowrap; color:var(--black)">00</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">agendamentos</p>
+      </div>
+      <div style="flex:1; border-top:2px solid var(--cyan); padding-top:20px">
+        <span class="serif-num cy" style="font-size:46px; white-space:nowrap">R$ 00.000</span>
+        <p class="tiny" style="color:var(--mute); margin-top:10px">faturamento atribuído</p>
+      </div>
+    </div>
+
+    <div class="row gap-m mt-a center-y">
+      <div class="ph" style="width:330px; height:190px">SUBSTITUIR<br>print do WhatsApp</div>
+      <p class="body-sm" style="max-width:30ch; color:var(--black)">
+        “[ Frase curta da cliente. Print cortado, sem número de telefone visível. ]”
+      </p>
+    </div>
+
+    <p class="tiny" style="color:var(--mute); margin-top:30px">@perfil.da.clinica</p>
+  </div>
+</section>
+
+<!-- ===================== 10 PROCESSO ===================== -->
+<section class="page dark" data-document-role="page" data-label="10 Processo"
+  data-speaker-notes="Mostre que existe metodo e prazo. Reduz o medo de contratar agencia que some depois do pagamento.">
+  <div class="row between end">
+    <div>
+      <span class="kicker">Como o projeto anda</span>
+      <h2 class="display d-lg" style="margin-top:28px; max-width:14ch">Cinco etapas, do contrato à escala</h2>
+    </div>
+    <p class="body-sm" style="width:460px; color:rgba(255,255,255,.7); padding-bottom:12px">
+      Nada fica no improviso. Cada etapa tem entrega definida e você acompanha o
+      andamento semana a semana.
+    </p>
+  </div>
+  <hr class="rule" style="margin:56px 0 64px">
+
+  <div class="row grow" style="gap:0">
+    <div style="flex:1; padding-right:44px; border-right:1px solid var(--line-dark)">
+      <span class="serif-num cy" style="font-size:76px">01</span>
+      <h3 class="display" style="font-size:36px; margin:22px 0 16px">Onboarding</h3>
+      <p class="body-sm" style="color:rgba(255,255,255,.68)">Diagnóstico da operação: oferta, ticket, atendimento e histórico de investimento.</p>
+    </div>
+    <div style="flex:1; padding:0 44px; border-right:1px solid var(--line-dark)">
+      <span class="serif-num cy" style="font-size:76px">02</span>
+      <h3 class="display" style="font-size:36px; margin:22px 0 16px">Estratégia</h3>
+      <p class="body-sm" style="color:rgba(255,255,255,.68)">Planejamento de mídia, definição da oferta e apresentação do plano antes de qualquer anúncio subir.</p>
+    </div>
+    <div style="flex:1; padding:0 44px; border-right:1px solid var(--line-dark)">
+      <span class="serif-num cy" style="font-size:76px">03</span>
+      <h3 class="display" style="font-size:36px; margin:22px 0 16px">Implantação</h3>
+      <p class="body-sm" style="color:rgba(255,255,255,.68)">Estrutura completa no ar: campanhas, criativos, página e automação de atendimento.</p>
+    </div>
+    <div style="flex:1; padding:0 44px; border-right:1px solid var(--line-dark)">
+      <span class="serif-num cy" style="font-size:76px">04</span>
+      <h3 class="display" style="font-size:36px; margin:22px 0 16px">Otimização</h3>
+      <p class="body-sm" style="color:rgba(255,255,255,.68)">Leitura semanal de métricas e ajuste do que trava a conversão, com relatório na sua mão.</p>
+    </div>
+    <div style="flex:1; padding-left:44px">
+      <span class="serif-num cy" style="font-size:76px">05</span>
+      <h3 class="display" style="font-size:36px; margin:22px 0 16px">Escala</h3>
+      <p class="body-sm" style="color:rgba(255,255,255,.68)">Mais verba no que já provou retorno, para crescer sem perder a previsibilidade.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 11 O QUE ESPERAR ===================== -->
+<section class="page light" data-document-role="page" data-label="11 O que esperar"
+  data-speaker-notes="Traduza metodo em resultado. Pergunte qual desses quatro ela mais quer nos proximos seis meses.">
+  <div class="row gap-l grow center-y">
+    <div style="width:840px">
+      <span class="kicker">O que muda na sua clínica</span>
+      <h2 class="display d-xl" style="color:var(--black); margin-top:34px">O que esperar do nosso trabalho</h2>
+      <hr class="rule rule-w" style="margin-top:46px">
+    </div>
+
+    <div class="col gap-m grow">
+      <div class="row gap-s">
+        <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:6px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+        <p class="body-md" style="color:var(--black)">Uma agenda previsível, que não depende de indicação nem de sorte.</p>
+      </div>
+      <hr style="border:0; border-top:1px solid var(--line-light)">
+      <div class="row gap-s">
+        <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:6px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+        <p class="body-md" style="color:var(--black)">Sua clínica ocupando o lugar de referência na região.</p>
+      </div>
+      <hr style="border:0; border-top:1px solid var(--line-light)">
+      <div class="row gap-s">
+        <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:6px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+        <p class="body-md" style="color:var(--black)">Pacientes que chegam prontos para fechar procedimento, não para perguntar preço.</p>
+      </div>
+      <hr style="border:0; border-top:1px solid var(--line-light)">
+      <div class="row gap-s">
+        <svg width="26" viewBox="0 0 300 340" style="flex:none; margin-top:6px"><path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/><path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/><path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/></svg>
+        <p class="body-md" style="color:var(--black)">Número claro toda semana, para você saber exatamente onde seu dinheiro está.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>L7 Mídia</span><span>11</span></div>
+</section>
+
+<!-- ===================== 12 ANCORAGEM ===================== -->
+<section class="page dark" data-document-role="page" data-label="12 Ancoragem"
+  data-speaker-notes="Slide que faz o preco parecer barato. Leia a soma em voz alta e so depois vire para o investimento.">
+  <span class="kicker">Antes de falar de investimento</span>
+  <h2 class="display d-lg" style="margin-top:28px; max-width:16ch">Quanto custaria montar isso sozinha</h2>
+  <hr class="rule" style="margin:52px 0 58px">
+
+  <div class="row gap-l grow">
+    <div class="col grow" style="max-width:1080px">
+      <div class="row between center-y" style="border-bottom:1px solid var(--line-dark); padding:22px 0">
+        <span class="body-md">Gestor de tráfego dedicado</span>
+        <span class="serif-num" style="font-size:46px">R$ 2.000 <span class="body-sm" style="color:var(--mute)">/mês</span></span>
+      </div>
+      <div class="row between center-y" style="border-bottom:1px solid var(--line-dark); padding:22px 0">
+        <span class="body-md">Designer para criativos</span>
+        <span class="serif-num" style="font-size:46px">R$ 1.500 <span class="body-sm" style="color:var(--mute)">/mês</span></span>
+      </div>
+      <div class="row between center-y" style="border-bottom:1px solid var(--line-dark); padding:22px 0">
+        <span class="body-md">Desenvolvedor de página</span>
+        <span class="serif-num" style="font-size:46px">R$ 1.200 <span class="body-sm" style="color:var(--mute)">/mês</span></span>
+      </div>
+      <div class="row between center-y" style="border-bottom:1px solid var(--line-dark); padding:22px 0">
+        <span class="body-md">Especialista em CRM e automação</span>
+        <span class="serif-num" style="font-size:46px">R$ 1.500 <span class="body-sm" style="color:var(--mute)">/mês</span></span>
+      </div>
+      <div class="row between center-y" style="padding:34px 0 0">
+        <span class="display" style="font-size:44px">Soma</span>
+        <span class="serif-num cy" style="font-size:86px">R$ 6.200 <span class="body-md" style="color:var(--mute)">/mês</span></span>
+      </div>
+    </div>
+
+    <div style="width:440px; border-left:1px solid var(--line-dark); padding-left:56px" class="col">
+      <p class="body-md" style="color:rgba(255,255,255,.82)">
+        E ainda sobra para você a parte mais cara: contratar, alinhar e cobrar quatro
+        profissionais que não conversam entre si.
+      </p>
+      <p class="body-md mt-a cy">
+        No Método L7 isso chega pronto, integrado e sob uma única responsabilidade.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 13 INVESTIMENTO ===================== -->
+<section class="page light" data-document-role="page" data-label="13 Investimento"
+  data-speaker-notes="Fale o valor uma vez e fique em silencio. Quem fala primeiro depois do preco perde margem.">
+  <div class="row between end">
+    <span class="kicker">Investimento no Projeto L7</span>
+    <span class="tiny" style="color:var(--mute)">Contrato de 6 meses</span>
+  </div>
+  <hr class="rule" style="margin:44px 0 0">
+
+  <div class="row grow center-y gap-l" style="padding-top:56px">
+    <div style="flex:1.15">
+      <p class="tiny" style="color:var(--mute); margin-bottom:22px">Parcelado em até 12x no cartão</p>
+      <div class="row end gap-s">
+        <span class="serif-num" style="font-size:210px; color:var(--black); line-height:.8">R$ 1.600</span>
+        <span class="body-md" style="color:var(--mute); padding-bottom:26px">/mês</span>
+      </div>
+      <p class="body-sm" style="color:var(--mute); margin-top:26px">Total do projeto: R$ 9.600</p>
+
+      <div style="margin-top:56px; border-top:2px solid var(--black); padding-top:30px">
+        <p class="tiny" style="color:var(--mute); margin-bottom:16px">À vista no Pix ou boleto — 20% de desconto</p>
+        <span class="serif-num cy" style="font-size:96px">R$ 7.680</span>
+      </div>
+    </div>
+
+    <div style="width:2px; height:520px; background:var(--black)"></div>
+
+    <div style="flex:.85" class="col gap-m">
+      <p class="body-md" style="color:var(--black)">
+        Menos que o custo de um único profissional — pelo sistema comercial inteiro
+        rodando na sua clínica.
+      </p>
+      <hr style="border:0; border-top:1px solid var(--line-light)">
+      <div>
+        <h3 class="display d-md" style="color:var(--black); margin-bottom:20px">Risco zero</h3>
+        <p class="body-sm">
+          Depois que apresentarmos o Plano Estratégico L7, se você não enxergar que ele
+          pode transformar a sua operação, devolvemos 100% do investimento. Sem
+          burocracia e sem discussão.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>L7 Mídia</span><span>13</span></div>
+</section>
+
+<!-- ===================== 14 CTA ===================== -->
+<section class="page dark" data-document-role="page" data-label="14 Próximo passo"
+  data-speaker-notes="Peca a decisao em voz alta. Nao termine com posso te mandar mais informacoes.">
+  <svg class="zwater" style="left:-180px; bottom:-120px; width:820px;" viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+    <path d="M36 12h96l-16 78-96 78 28-156z" fill="#00DFDC"/>
+    <path d="M148 12h108l44 96-84 122h-88L232 60H136l12-48z" fill="#00DFDC"/>
+    <path d="M120 130l-34 152h192l-62 76H26L0 224l120-94z" fill="#00DFDC"/>
+  </svg>
+
+  <span class="kicker">Próximo passo</span>
+
+  <div class="grow col" style="max-width:1280px; justify-content:flex-end">
+    <h2 class="display d-xl">Sua agenda cheia começa com uma decisão</h2>
+    <hr class="rule rule-w" style="margin:50px 0 40px">
+    <p class="body-lg" style="max-width:40ch; color:rgba(255,255,255,.82)">
+      Responda esta proposta com <span class="strong cy">“quero começar”</span> e em até
+      24 horas seu onboarding entra na agenda.
+    </p>
+  </div>
+
+  <div class="row between end" style="padding-top:80px; border-top:1px solid var(--line-dark); margin-top:70px">
+    <div class="col gap-s" style="padding-top:36px">
+      <span class="tiny cy">Vagas do mês</span>
+      <p class="body-sm" style="color:rgba(255,255,255,.7); max-width:34ch">
+        Trabalhamos com poucas clínicas por vez. É assim que garantimos resultado em cada conta.
+      </p>
+    </div>
+    <div class="col gap-s" style="text-align:right; padding-top:36px">
+      <span class="body-md" style="color:#fff">[ WhatsApp ]</span>
+      <span class="body-sm" style="color:rgba(255,255,255,.6)">[ @instagram ]</span>
+      <span class="body-sm" style="color:rgba(255,255,255,.6)">[ site ]</span>
+    </div>
+  </div>
+</section>
